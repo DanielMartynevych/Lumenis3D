@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lumenis3d"
+version = "0.1"
+description = "A simple W.I.P 3D render engine made with Numpy and Python"
+authors = [
+    {name = "TheTrueDaniel", email = "komputerschikdanya@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "pygame>=2.0",
+    "numpy>=1.20",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/lumenis3d"
+Source = "https://github.com/yourusername/lumenis3d"
